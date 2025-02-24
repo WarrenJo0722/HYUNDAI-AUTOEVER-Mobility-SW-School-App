@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RecipeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- 버튼 스타일 지정 -->
+        <!--<item name="buttonStyle">@style/CustomButtonStyle</item>-->
+    </style>
+
+    <style name="Theme.RecipeApp" parent="Base.Theme.RecipeApp" />
+
+    <!-- 버튼 커스텀 스타일 -->
+    <style name="CustomButtonStyle" parent="Widget.Material3.Button">
+        <!--<item name="android:backgroundTint">@color/colorAccent</item>-->
+        <!--<item name="android:textColor">@android:color/white</item>-->
+        <item name="cornerRadius">8dp</item>
+        <!--<item name="android:textSize">16sp</item>-->
+        <!--<item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>-->
+    </style>
+</resources>
